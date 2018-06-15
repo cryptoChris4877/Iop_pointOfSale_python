@@ -12,5 +12,7 @@ where user is the user name passed to the iop node and password is passed to the
 also set up your receiving address to a receiving address on you IoP wallet.
 
 self.out_address='<your receive address>' # receive address
-  
+
+Note: Make sure you run the IoP node before starting the Point of Sale code or it will not be able to communicate with the blockchain
+
 now run main.py and you should be greated with the point of sale User Interface.
