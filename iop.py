@@ -729,7 +729,7 @@ class POS:
         amount = 'amount=' + str(amount) #+ 'X8'
         label = '' if not label else '&label='+label
         message = '' if not message else '&message='+message
-        qr_str = 'IoP:'+address+'?'+amount + label + message
+        qr_str = 'iop:'+address+'?'+amount + label + message
         self.logger.debug( qr_str)
         im = pyqrcode.create(qr_str)
         self.logger.debug("Ok here")
